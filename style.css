@@ -1,0 +1,73 @@
+body {
+    font-family: 'Indie Flower', cursive;
+}
+img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.coolTitle {
+    text-align: center;
+    border: 1px solid black;
+    width: 50%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.first {
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.done {
+    text-decoration: line-through;
+    color: green;
+}
+.red {
+    color: red;
+}
+.list-group-item:hover {
+    color: white;
+    background-color: #6C757D;
+}
+.list-group-item:focus {
+    color: white;
+    background-color: #6C757D;
+}
+ul li {
+    font-size: 18px;
+}
+.done {
+    text-decoration: line-through;
+}
+.custBtn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: transparent;
+    color: black;
+    width: 40px;
+    height: 60px;
+    border: 3px solid transparent;
+    transition: all .2s;
+}
+.custBtn:hover {
+    color: white;
+}
+.custBtn2 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: transparent;
+    color: black;
+    opacity: 0.5;
+    width: 40px;
+    height: 60px;
+    border: 3px solid transparent;
+    transition: all .2s;
+}

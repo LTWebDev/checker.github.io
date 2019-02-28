@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To do list !</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<img src="Capture.PNG" class="rounded float-right" alt="logo"> 
+    <h1 class="coolTitle">To Do List - Checked !</h1>
+        <h2 class="first">! Get it done today !</h2>
+        <div class="container">
+            <div class="row">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <button class="btn btn-outline-secondary" type="button" id="enter">Add</button>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Item" id="userInput" required="required">
+                    </div>   
+                </div>
+                <ul class="list-group list-group-flush" id="ul1"> 
+                </ul>
+            </div>
+    
+    <div class="container">
+	   <div class="row">
+            <div class="control-group" id="fields">
+                <label class="control-label" for="field1">You can add comments</label>
+                    <div class="controls"> 
+                        <form role="form" autocomplete="off">
+                            <div class="entry input-group col-xs-3">
+                                <input class="form-control" name="fields[]" type="text" placeholder="Type something" />
+                    	       <span class="input-group-btn">
+                                    <button class="btn btn-add" type="button">
+                                        <span>+</span>
+                                    </button>
+                                </span>
+                            </div>
+                        </form>       
+                    </div>
+            </div>
+        </div>
+    </div>    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
